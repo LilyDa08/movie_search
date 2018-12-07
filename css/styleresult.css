@@ -1,0 +1,92 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: #363640;
+    text-align: center;
+    width: 100vw;
+}
+
+main {
+    width: 90vw;
+    min-width: 670px;
+    max-width: 1150px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 2px solid rgba(73, 172, 77, 0.7);
+    background-color: rgba(73, 172, 77, 0.08);
+    text-align: center;
+}
+
+.content {
+    width: 80%;
+    min-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.infos {
+    list-style: none;
+    font-weight: 100;
+    text-align: left;
+    padding: 5px 25px;
+    width: 100%;
+}
+
+.info {
+    display: flex;
+    line-height: 190%;
+    font-size: 1.5rem;
+    color: #aaaaaa;
+    width: 100%;
+}
+
+.img {
+    height: 300px;
+    /* margin-left: 5vw; */
+}
+img {
+    object-fit: cover;
+    object-position: 50% 50%;
+    height: 100%;
+}
+
+.movieInfo {
+    display: flex;
+}
+
+.title {
+    font-size: 2rem;
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    padding-right: 8px;
+    color: #7c7c7c;
+}

@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    font-family: sans-serif;
+    background-color: #363640;
+    text-align: center;
+    width: 100vw;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
+.searchbars {
+    display: flex;
+}
+
+.submit {
+    background-color: #4CAF50;
+    width: 10rem;
+    height: 5rem;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.9rem;
+    font-weight: 100;
+    margin: 5px;
+}
+
+.search {
+    width: 25rem;
+    height: 5rem;
+    padding: 0 1.2rem;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.04);
+    font-size: 1.9rem;
+    text-align: center;
+    color: rgba(73, 172, 77, 0.7);
+    /* text-transform: uppercase; */
+    font-weight: 100;
+    margin: 5px;
+}
+
+.infos {
+    margin-top: 5px;
+    border-radius: 5px 5px 0 0;
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(165, 165, 165);
+    list-style: none;
+    font-weight: 100;
+}
+
+.infos li {
+    background-color: rgba(255, 255, 255, 0.04);
+    padding: 12px;
+    padding-bottom: 15px; 
+    margin-bottom: 4px;
+    line-height: 100%;
+}
+
+.infos li:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.content {
+    margin: 0;
+    padding: 0;
+}
+.artist {
+    text-decoration: underline;
+    font-size: 2.2rem;
+    color: #4CAF50;
+    padding: 10px;
+    font-weight: 200;
+}
+.infos{
+    padding: 0;
+    margin-top: 5px;
+    font-size: 2rem;
+    list-style: none;
+    font-weight: 100;
+    color: white;
+    line-height: 180%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+p {
+    color: #a7a7a7;
+    margin: 0;
+    font-weight: 100;
+}
+
+h3 {
+    margin: 0;
+    padding-top: 15px;
+    font-weight: 200;
+}
+
+.notFound {
+    font-style: italic;
+    font-size: 2em;
+    color: #4f4f5c;
+}
